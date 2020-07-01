@@ -6,7 +6,7 @@ body{
 .pink-hilight{
     color: hotpink;
     font-size: 40px;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
 }
 
 .hire-me-button{
@@ -84,7 +84,7 @@ section{
 }
 .my-leatest-work img{
     
-    height: 250px;
+    height: 270px;
     width: 300px;
     display: block;
     float: left;
@@ -107,7 +107,7 @@ section{
     
 }
 
-.email-button{
+.email{
     background-color: deeppink;
     border-radius: 5px;
     height: 80%;
@@ -121,4 +121,36 @@ section{
 footer p{
     text-align: center;
     font-size: 14px;
+}
+
+/*bonus exection css*/
+.single-experience{
+    box-shadow: 10px 10px 40px grey ;
+    border-radius: 5px;
+    height: 80%;
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left:2% ;
+}
+
+.experience-area{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#full-stack{
+    border-left:7px solid ;
+    border-image: linear-gradient( 180deg,lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left:7px solid ;
+    border-image: linear-gradient( 180deg,blue, cyan);
+    border-image-slice: 1;
+}
+.experience-area h1{
+    text-align: center;
+    padding-top:20px;
 }
